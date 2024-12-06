@@ -10,7 +10,7 @@ seatools ioc 的 cache 启动器
 1. 安装, `poetry add seatools-starter-cache`
 2. 配置文件`config/application.yml`配置如下
 ```yaml
-# 数据库配置
+# seatools 配置
 seatools:
   cache:
     # 缓存的驱动, 默认内置基于内存的驱动：FIFOCache, LFUCache, LRUCache, MRUCache, RRCache, TTLCache, TLRUCache, 支持自定义缓存及配置示例: seatools.cache.ext.SqliteCache
